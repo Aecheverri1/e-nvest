@@ -1,0 +1,170 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Nunito', sans-serif;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+main {
+    display: block;
+    width: 100vw;
+    height: 100vh;
+    background-image: url("/backgrounds/app-backgrounds-03.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.login-title {
+    display: block;
+    justify-content: center;
+    width: 90%;
+    text-align: center;
+    margin: 0 auto;
+    color: white;
+    font-size: 1.4rem;
+    font-weight: bold;
+    padding-top: 60px;
+    margin-bottom: 20px;
+}
+
+.login-user-container {
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 65px;
+}
+
+.login-user-container a {
+    text-decoration: none;
+    color: white;
+}
+
+.fa-angle-left {
+    display: block;
+    color: white;
+    justify-self: flex-start;
+    margin-left: 0;
+}
+
+.login-user-icon {
+    display: block;
+    width: 75px;
+    margin: 0 auto;
+}
+
+.credentials-container {
+    display: block;
+    width: 300px;
+    height: 300px;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.input-container-objects {
+display: flex;
+height: 30px;
+align-items: center;
+background-color: white;
+border-radius: 5px;
+margin-bottom: 20px;
+}
+
+.input-container p {
+    width: 100px;
+    font-size: 1.3rem;
+    padding-left: 20px;
+    color: #423cb5;
+}
+
+.input-container input {
+    width: 200px;
+    height: 30px;
+    border: none;
+    justify-self: flex-end;
+    margin: 0 auto;
+    padding-left: 20px;
+    border-radius: 5px;
+}
+
+.buttons-container {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+.buttons-container-login {
+    width: 200px;
+    height: 50px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 129px;
+    border-radius: 10px;
+    border: none;
+    background: linear-gradient(90deg,#ae80f5, #423cb5);
+    color: white;
+    font-size: 1.7rem;
+    font-weight: bold;
+    box-shadow: rgba(66, 60, 181, 1) 0px 20px 30px -18px;
+}
+
+.buttons-container-login a {
+    text-decoration: none;
+    color: white;
+    display: block;
+    margin: 0 auto;
+    padding: 13px;
+    text-align: center;
+}
+
+.need-help-link {
+    display: block;
+    align-content: center;
+    width: 90%;
+    height: auto;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 1.2rem;
+    color: #989898;
+    margin-top: 48px;
+    margin-bottom: 30px;
+}
+
+.input-container input:focus {
+    outline: none;
+}
+
+.forgot-password {
+    display: inline-block;
+    width: 90%;
+    font-size: 1.2rem;
+    justify-content: center;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 5px;
+    color: white;
+}
+
+.forgot-password a {
+    display: inline-block;
+    padding: 0;
+    text-decoration: none;
+    color: white;
+}
+
+.temporary-link {
+    text-decoration: none;
+}
+
+.input-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 300px;
+}

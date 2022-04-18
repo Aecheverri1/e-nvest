@@ -1,0 +1,203 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Nunito', sans-serif;
+}
+
+:root {
+    --primary-color: linear-gradient(90deg,#ae80f5, #423cb5);
+}
+
+html {
+    font-size: 62.5%;
+}
+
+main {
+    display: block;
+    width: 100vw;
+    height: 100vh;
+    background-image: url("/backgrounds/app-backgrounds-04.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.userName {
+    display: block;
+    width: 300px;
+    margin: 0 auto;
+    padding-top: 50px;
+    font-size: 1.4rem;
+    color: white;
+}
+
+.login-user-container {
+    display: flex;
+    align-items: center;
+    width: 300px;
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    justify-content: center;
+}
+
+.login-user-icon {
+    display: block;
+    justify-self: flex-start;
+    width: 80px;
+    height: auto;
+    margin-right: auto;
+    margin-left: 0;
+}
+
+.balance-container {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    width: 200px;
+    justify-content: center;
+    text-align: center;
+}
+
+.balance-container-money {
+    display: flex;
+    width: 200px;
+    height: 50px;
+    margin: auto 0;
+    justify-content: center;
+    align-items: center;
+}
+
+.balance-container-money-number {
+    font-size: 3rem;
+    color: white;
+}
+
+.balance-container-title {
+    color: #ffffff;
+    font-size: 1.1rem;
+}
+
+.balance-card-container {
+    display: flex;
+    width: 300px;
+    height: 150px;
+    margin: 0 auto;
+    border-radius: 15px;
+    background-color: white;
+    box-shadow: rgba(66, 60, 181, 1) 0px 20px 30px -18px;
+}
+
+.money-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.separation-line {
+    display: block;
+    width: 1px;
+    height: 80px;
+    margin-top: auto;
+    margin-bottom: auto;
+    background-color: #f3f3f3;
+}
+
+.money-container-items-title {
+    font-size: 1.5rem;
+    color: #999999;
+    margin-bottom: 15px;
+}
+
+.money-container-items-number {
+    font-size: 1.8rem;
+}
+
+.services-container {
+    display: flex;
+    width: 300px;
+    height: auto;
+    justify-content: space-between;
+    margin: 60px auto;
+}
+
+.services-container-button {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    text-align: center;
+    margin: 0 auto;
+    width: 85px;
+    height: 85px;
+    border: none;
+    border-radius: 8px;
+    color: #423cb5;
+    background-color: white;
+    box-shadow: rgba(66, 60, 181, 1) 0px 5px 30px -12px;
+    transition: .5s;
+    cursor: pointer;
+}
+
+.services-container-button:hover {
+    background-color: #65488f;
+    color: white;
+}
+
+.services-container-button:active {
+    background-color: #65488f;
+    color: white;
+}
+
+.services-container-button p {
+   text-align: center;
+   font-weight: bold;
+   font-size: 1.1rem;
+}
+
+.services-container a {
+    text-decoration: none;
+}
+
+.money-request-container {
+    display: flex;
+    width: 300px;
+    height: auto;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+.money-button {
+    display: flex;
+    justify-items: center;
+    justify-content: center;
+    align-items: center;
+    width: 135px;
+    height: 35px;
+    border-radius: 8px;
+    align-items: center;
+    color: #423cb5;
+    background-color: white;
+    box-shadow: rgba(66, 60, 181, 1) 0px 5px 30px -12px;
+    transition: .5s;
+    cursor: pointer;
+}
+
+.fa-angle-down {
+    padding: 8px;
+}
+
+.fa-angle-up {
+    padding: 8px;
+}
+
+.money-button:hover {
+    background-color: #65488f;
+    color: white;
+}
+
+.money-button:active {
+    background-color: #65488f;
+    color: white;
+}

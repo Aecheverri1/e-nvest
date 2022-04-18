@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/mobile-transactions.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;500;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Prompt:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <title>Transactions | E-nvest</title>
+</head>
+<body>
+    <main>
+        <div class="main-header-container">
+            <a href="/html/home.html">
+                <i class="fas fa-angle-left fa-2x"></i>
+            </a>
+            <h1>Transactions</h1>
+        </div>
+        <article class="income-outcome-container">
+            <h1>Income</h1>
+            <div class="money-input-container">
+                <form action="" id="income-form">
+                    <div class="input-container-flex">
+                        <div class="input-bar">
+                            <label for="expenses-value">Money received</label>
+                            <input type="number" placeholder="000.000.000" id="receivedAmount">
+                        </div>
+                        <div class="concept-bar">
+                            <label for="expenses-concept">Add a note</label>
+                            <input type="text" placeholder="Write a description" id="income-description">
+                        </div>
+                    </div>
+                    <button type="button" onclick="income()">Add income</button>
+                </form>
+            </div>
+        </article>
+        <article class="income-outcome-container">
+            <h1>Expenses</h1>
+            <div class="money-input-container">
+                <form action="" id="outcome-form">
+                    <div class="input-container-flex">
+                        <div class="input-bar">
+                            <label for="expenses-value">Money spent</label>
+                            <input type="number" placeholder="000.000.000" id="amountSpent">
+                        </div>
+                        <div class="concept-bar">
+                            <label for="expenses-concept">Add a note</label>
+                            <input type="text" placeholder="Write a description" id="expense-description">
+                        </div>
+                    </div>
+                    <button type="button" onclick="expense()">Add expense</button>
+                </form>
+            </div>
+        </article>
+        <section class="transactions-cards-container" id="concepts">
+
+            <!-- concepto de ingresos y gastos -->
+
+            <!-- <article class="card-container">
+                <div class="card-header-container">
+                    <p class="date" id="date">25 Mar</p>
+                    <i class="fas fa-plus-circle fa-2x"></i>
+                </div>
+                <div class="card-info-container">
+                    <img src="/logos-and-icons/user-expenses-05.png" alt="">
+                    <p class="card-container-reference">Uber payment</p>
+                    <p class="card-container-cost">+$9.99</p>
+                </div>
+            </article> -->
+        </section>
+    </main>
+    <script src="https://kit.fontawesome.com/0bc9db981c.js" crossorigin="anonymous"></script>
+    <script src="/javascript/transactions.js"></script>
+</body>
+</html>

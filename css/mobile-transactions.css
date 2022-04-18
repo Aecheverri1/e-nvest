@@ -1,0 +1,197 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Nunito', sans-serif;
+}
+
+:root {
+    --primary-color: linear-gradient(90deg,#ae80f5, #423cb5);
+}
+
+html {
+    font-size: 62.5%;
+}
+
+main {
+    display: block;
+    width: 100vw;
+    height: 100vh;
+    background-image: url("/backgrounds/app-backgrounds-05-06.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.main-header-container {
+    display: flex;
+    width: 300px;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+
+.fa-angle-left {
+    color: white;
+    justify-self: flex-start;
+}
+
+.main-header-container h1 {
+    justify-self: center;
+    text-align: center;
+    color: white;
+    margin: 0 auto;
+}
+
+.transactions-cards-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 20px auto;
+    width: 300px;
+    height: auto;
+}
+
+.card-container {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    width: 300px;
+    height: 130px;
+    justify-content: center;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: rgba(66, 60, 181, 1) 0px 20px 30px -18px;
+}
+
+.date {
+    font-size: 1.2rem;
+    color: #423cb5;
+}
+
+.card-header-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    align-items: center;
+    width: 260px;
+    height: 30px;
+}
+
+.fa-money-bill-transfer {
+    color: #423cb5;
+}
+
+.card-info-container {
+    margin: 8px auto;
+}
+
+.card-info-container {
+    display: flex;
+    width: 260px;
+    height: auto;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card-container-cost {
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+
+.card-container-reference {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.card-info-container img{
+    width: 50px;
+}
+
+.income-outcome-container {
+    display: block;
+    margin: 15px auto;
+    width: 300px;
+    height: auto;
+}
+
+.income-outcome-container h1 {
+    color: white;
+    text-align: center;
+    padding-bottom: 5px;
+}
+
+.input-bar {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+    background-color: white;
+    align-items: center;
+    width: 50%;
+    height: 50px;
+    border-radius: 12px 0 0 12px;
+    margin-right: 2px;
+}
+
+.concept-bar {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    width: 50%;
+    height: 50px;
+    margin-left: 2px;
+    background-color: white;
+    border-radius: 0 12px 12px 0;
+}
+
+.concept-bar ::placeholder {
+    opacity: .5;
+}
+
+.concept-bar input {
+    width: 90%;
+    border: none;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.concept-bar input:focus {
+    outline: none;
+}
+
+.input-container-flex {
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+    color: #423cb5;
+    box-shadow: rgba(66, 60, 181, 1) 0px 20px 30px -18px;
+}
+
+.input-bar input {
+    width: 90%;
+    height: 23px;
+    border: none;
+    text-align: center;
+}
+
+.input-bar input:focus {
+    outline: none;
+}
+
+.input-bar input::placeholder {
+    opacity: .5;
+}
+
+.money-input-container button {
+    margin-top: 5px;
+    width: 300px;
+    height: 27px;
+    border: none;
+    border-radius: 12px;
+    background-color: #423cb5;
+    color: white;
+    font-weight: bold;
+}

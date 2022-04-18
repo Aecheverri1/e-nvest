@@ -1,0 +1,101 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Nunito', sans-serif;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+main {
+    display: block;
+    width: 100vw;
+    height: 100vh;
+    background-image: url("/backgrounds/app-backgrounds-02.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.logo-container {
+    display: block;
+    padding-top: 80px;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+.logo-container h1 {
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    color: white;
+    font-size: 3rem;
+    font-family: 'Prompt', sans-serif;
+}
+
+.logo-container img{
+    display: block;
+    margin: 0 auto;
+    width: 170px;
+    height: auto;
+    border-radius: 25px;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 30px 80px;
+}
+
+.buttons-container {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    margin-top: 145px;
+    justify-content: center;
+}
+
+.buttons-container-login {
+    width: 200px;
+    height: 50px;
+    margin: 0 auto;
+    border-radius: 10px;
+    border: none;
+    background: linear-gradient(90deg,#ae80f5, #423cb5);
+    color: white;
+    font-size: 1.7rem;
+    font-weight: bold;
+    box-shadow: rgba(66, 60, 181, 1) 0px 20px 30px -18px;
+}
+
+.buttons-container-login a {
+    text-decoration: none;
+    color: white;
+    display: block;
+    margin: 0 auto;
+    padding: 13px;
+    text-align: center;
+}
+
+.buttons-container-register {
+    width: 200px;
+    height: 50px;
+    margin: 30px auto;
+    border-radius: 10px;
+    border: none;
+    font-size: 1.7rem;
+    background-color: white;
+    box-shadow: rgba(66, 60, 181, 1) 0px 20px 30px -18px;
+}
+
+.buttons-container-register a {
+    text-decoration: none;
+    color: rgba(66, 60, 181, 1);
+    display: block;
+    margin: 0 auto;
+    padding: 13px;
+    text-align: center;
+}
+
+.need-help-link {
+    text-align: center;
+    font-size: 1.2rem;
+    color: #989898;
+}

@@ -1,0 +1,150 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Nunito', sans-serif;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+main {
+    display: block;
+    width: 100vw;
+    height: 100vh;
+    background-image: url("/backgrounds/app-backgrounds-06-06.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+    padding-top: 30px;
+    text-align: center;
+    color: white;
+    margin-bottom: 60px;
+}
+
+.card-slider-container {
+    width: 300px;
+    height: auto;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+.card-slider-container img {
+    display: block;
+    box-shadow: rgba(66, 60, 181, 1) 0px 15px 15px -13px;
+    width: 280px;
+    height: auto;
+    margin: 0 auto;
+}
+
+
+.fade {
+    animation-duration: 3s;
+    animation-name: fade;
+}
+
+@keyframes fade {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}
+
+.services-container {
+    display: flex;
+    width: 300px;
+    height: auto;
+    justify-content: space-between;
+    margin: 60px auto;
+}
+
+.services-container-button {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    text-align: center;
+    margin: 0 auto;
+    width: 85px;
+    height: 85px;
+    border: none;
+    border-radius: 8px;
+    color: #423cb5;
+    background-color: white;
+    box-shadow: rgba(66, 60, 181, 1) 0px 5px 30px -12px;
+    transition: .5s;
+    cursor: pointer;
+}
+
+.services-container-button:hover {
+    background-color: #65488f;
+    color: white;
+}
+
+.services-container-button:active {
+    background-color: #65488f;
+    color: white;
+}
+
+.services-container-button p {
+   text-align: center;
+   font-weight: bold;
+   font-size: 1.1rem;
+}
+
+.services-container a {
+    text-decoration: none;
+}
+
+.refer-friend-card {
+    display: block;
+    width: 300px;
+    height: 130px;
+    margin: 0 auto;
+    text-align: center;
+    background: linear-gradient(90deg,#ae80f5, #423cb5);
+    border-radius: 15px;
+    box-shadow: rgba(66, 60, 181, 1) 0px 5px 30px -12px;
+    position: relative;
+}
+
+.refer-friend-textImage {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 0 auto;
+    padding-top: 10px;
+}
+
+.refer-friend-textImage p {
+    color: white;
+    font-size: 2rem;
+    text-align: left;
+    line-height: 2.5rem;
+}
+
+.refer-friend-textImage img {
+    display: block;
+    width: 85px;
+    height: auto;
+}
+
+.fa-angle-down {
+    color: white;
+    position: absolute;
+    right: calc(50% - 7.5px);
+    bottom: 10px;
+    animation-name: angle-down;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes angle-down {
+    0% {bottom: 17px}
+    50% {bottom: 10px;}
+    100% {bottom: 17px;}
+}
