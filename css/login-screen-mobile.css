@@ -13,7 +13,7 @@ main {
     display: block;
     width: 100vw;
     height: 100vh;
-    background-image: url("/backgrounds/app-backgrounds-03.png");
+    background-image: url("../backgrounds/app-backgrounds-03.png");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
