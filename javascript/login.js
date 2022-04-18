@@ -17,7 +17,7 @@ function logIn() {
     let passwordValue = password.value;
 
     if(userValue == users[0].user && passwordValue == users[0].password) {
-        window.location.assign("/html/home.html")
+        window.location.assign("../html/home.html")
     }
     else {
         alert("Wrong username or password");
