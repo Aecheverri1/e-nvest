@@ -74,7 +74,7 @@ function summaryOfIncome(list) {
      <i class="fa-solid fa-money-bill-transfer fa-2x"></i>
  </div>
  <div class="card-info-container">
-     <img src="/logos-and-icons/user-expenses-05.png" alt="">
+     <img src="..//logos-and-icons/user-expenses-05.png" alt="">
      <p class="card-container-reference">${list[incomeCounter].concept}</p>
      <p class="card-container-cost"><span>+ </span>${list[incomeCounter].amount.toLocaleString('en-US')}</p>
  </div>`
